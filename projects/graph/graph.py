@@ -1,18 +1,18 @@
-"""
-Simple graph implementation
-"""
-from util import Stack, Queue  # These may come in handy
+
+# Simple graph implementation
+
+from util import Stack, Queue
 
 class Graph:
 
     """Represent a graph as a dictionary of vertices mapping labels to edges."""
     def __init__(self):
-        self.vertices = {}
+        self.vertices = {} # python dictionary
 
     def add_vertex(self, vertex_id):
-        """
+        '''
         Add a vertex to the graph.
-        """
+        '''
         pass  # TODO
 
     def add_edge(self, v1, v2):
